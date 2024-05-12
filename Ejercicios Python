@@ -1,0 +1,93 @@
+# 1
+import numpy as np
+
+# Creamos matrices de 2x2
+
+matriz1 = np.array([[1, -1], [2, -1]])
+matriz2 = np.array([[2, -1], [-1, 8]])
+
+# Sumar las dos matrices
+suma = matriz1 + matriz2
+
+print("Resultado de la suma:")
+print(suma)
+
+# 2
+import numpy as np
+
+# Creamos matrices de 2x2
+
+matriz1 = np.array([[1, -1], [2, -1]])
+matriz2 = np.array([[2, -1], [-1, 8]])
+
+# Resta las dos matrices
+resta = matriz1 - matriz2
+
+print("Resultado de la resta:")
+print(resta)
+
+# 3
+import numpy as np
+
+# Creamos matriz de 2x2
+
+matriz = np.array([[1, -1], [2, -1]])
+
+
+# multiplicacion de matriz por un escalar 
+multiEscalar = matriz * 2
+
+print("Resultado de la multiplicacion de matriz por un escalar:")
+print(multiEscalar)
+
+# 4
+import numpy as np
+
+# Creamos matrices de 3x2
+
+matriz1 = np.array([[6, -1], [2, 4],[-3,5]])
+matriz2 = np.array([[1, 4], [-1, 5],[1,10]])
+
+# Sumar las dos matrices
+suma = matriz1 + matriz2
+
+print("Resultado de la suma:")
+print(suma)
+
+# 5
+import numpy as np
+
+# Creamos matrices de 3x3
+
+matriz1 = np.array([[3, 2, -1], [2, 4, 5],[0, 1, 2]])
+matriz2 = np.array([[0, 2, 1], [5, 4, 2],[2, 1, 0]])
+
+# Sumar las dos matrices
+suma = matriz1 + matriz2
+
+print("Resultado de la suma:")
+print(suma)
+
+ # 6 
+
+import numpy as np
+
+# Creamos matrices de 3x3
+
+matriz1 = np.array([[2, 3, 4], [0, 1, -1],[2, 0, 1]])
+matriz2 = np.array([[0, 6, 2], [4, 1, 0],[-1, 2, 4]])
+
+# Resta las dos matrices
+resta = matriz1 - matriz2
+
+print("Resultado de la resta:")
+print(resta)
+
+
+
+
+
+
+
+
+
